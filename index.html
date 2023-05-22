@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Hackers Collective - Bridging the Gap Between Technology and Innovation</title>
   <!-- Add your SEO meta tags here -->
   <meta name="description" content="Hackers Collective bridges the gap between technology and innovation by providing open-source solutions and simplifying technology. Our ultimate goal is to accelerate progress and create a better future for all.">
@@ -48,6 +48,17 @@
       font-size: 30px;
       font-weight: 700;
       margin-bottom: 20px;
+      background: linear-gradient(45deg, #FF5370, #F763A6, #C278ED, #7A77FF, #3DB4F2, #00D5E9);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientAnimation 10s linear infinite;
+    }
+
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
     footer {
